@@ -1,0 +1,151 @@
+/* HTML element */
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  
+  
+  /* Container */
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  
+  .container-ds {
+    padding:4% 9%;
+  }
+
+  .container-port {
+    padding:1% 5%;
+  }
+  
+  
+  /* Navigation Bar*/
+  .navbar {
+    /* style the navbar's padding bottom 4rem */
+    
+    position: fixed;
+    top: 0px;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    /* style the nav-item's padding 0 18px */
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+  
+  /* title */
+  #title .container-fluid {
+    padding:  3% 15% 7%;
+  }
+  
+  #title h1,  #download h3{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .image{
+    width: 60%;
+  }
+  
+  .textmid{
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /* Feature section   */
+  .pink{
+    color:#ef8172;
+    margin-bottom: 20px;
+  }
+  
+  .feature-title{
+    font-size: 1.75 rem;
+  }
+  
+  .nava{
+    
+    padding-left: 0.55%;
+  }
+
+  .opa{
+    position: relative;
+  }
+  
+  .opa::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    opacity: 75%;
+  }
+
+  .ds{
+    width: 100px;
+    height: 50%;
+  }
+
+  .space-topic{
+    margin-top: 7%;
+  }
+
+  .space-og{
+    margin-top: 1%;
+    
+  }
+
+  .space-bar{
+    margin-top: 2%;
+    margin-bottom: 9%;
+  }
+
+  .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+  .ops-foot{
+      position: relative;
+  }
+    
+  .ops-foot::before{
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgb(224, 201, 174);
+      opacity: 75%;
+  }
+
