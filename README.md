@@ -18,3 +18,9 @@
   curriculum are shown. When the user selects the semester and the academic year, the website should
   show the list of subjects that the student registers in that semester and the grade of each course. If the
   selected semester is the current semester. The grade is empty. The total GPA is still shown on this page.
+  
+  __Group name: iLikeYourCutG__
+  
+  __URL: https://biggib01.github.io/Project_DevOps/__
+  
+  _Member: Jeerasak Tarat[632115011], Yanawarut Kanwana[632115014], Supachok Jrirarojkul[632115041]_
