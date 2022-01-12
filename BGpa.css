@@ -1,0 +1,54 @@
+html, body {
+    padding-top: 10px;
+}
+
+body{
+    background-image: url('/assests/Supa\'s\ GPA\ page\ BG.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#data-table {
+    font-family: calibri, arial;
+    width: 600px;
+}
+
+#data-table thead td {
+    font-size: 20px;
+    background-color: #56aadb;
+}
+
+#data-table td {
+    color:black;
+    border: 1px solid #466E85;
+    width: 136px;
+    padding: 7px;
+    background-color: #ece9ff;
+}
+
+div .centerOfDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.opa{
+    position: relative;
+  }
+  
+.opa::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(243, 234, 255);
+    opacity: 60%;
+  }
+
+.LuxuriousRoman{
+    font-family: 'Luxurious Roman', cursive
+}
