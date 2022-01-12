@@ -54,7 +54,6 @@ $(document).ready(function(e) {
         $('#' + tableId + ' tbody').html(rows);
     }
 
-
     select.addEventListener('change',function(){
         if(select.value == 1 && select1.value == 1) {
             loadTable('data-table', ['field1', 'field2', 'field3',], data1); 
