@@ -39,7 +39,7 @@ $(document).ready(function(e) {
         { field1: 'OS & COMP NETWORK', field2: '953214', field3: 'N/A' },
         { field1: 'DEV OPS', field2: '953234', field3: 'N/A' },
         { field1: 'FRONT-END WEB DEV FOUNDATION', field2: '953262', field3: 'N/A' },
-        { field1: 'Total GPA', field2: '', field3: 'N/A'}
+        { field1: 'Total GPA', field2: '', field3: '1.59'}
         ];
     
     function loadTable(tableId, fields, data) {

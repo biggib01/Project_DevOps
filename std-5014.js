@@ -62,25 +62,25 @@ $(document).ready(function(e) {
     
 	yaer_select.addEventListener('change',function(){
 	    if(yaer_select.value == 1 && semester_select.value == 1) {
-		loadTable('data-table', ['id', 'subject', 'grade',], data1); 
+			loadTable('data-table', ['id', 'subject', 'grade',], data1); 
 	    }else if(yaer_select.value == 1 && semester_select.value == 2) {
-		loadTable('data-table', ['id', 'subject', 'grade',], data2);
+			loadTable('data-table', ['id', 'subject', 'grade',], data2);
 	    }else if(yaer_select.value == 2 && semester_select.value == 1) {
-		loadTable('data-table', ['id', 'subject', 'grade',], data3);
+			loadTable('data-table', ['id', 'subject', 'grade',], data3);
 	    }else if(yaer_select.value == 2 && semester_select.value == 2) {
-		loadTable('data-table', ['subject', 'grade',], data4);
+			loadTable('data-table', ['id', 'subject', 'grade',], data4);
 	    }
 	},false);
     
 	semester_select.addEventListener('change',function(){
 	    if(yaer_select.value == 1 && semester_select.value == 1) {
-		loadTable('data-table', ['id', 'subject', 'grade',], data1); 
+			loadTable('data-table', ['id', 'subject', 'grade',], data1); 
 	    }else if(yaer_select.value == 1 && semester_select.value == 2) {
-		loadTable('data-table', ['id', 'subject', 'grade',], data2);
+			loadTable('data-table', ['id', 'subject', 'grade',], data2);
 	    }else if(yaer_select.value == 2 && semester_select.value == 1) {
-		loadTable('data-table', ['id', 'subject', 'grade',], data3);
+			loadTable('data-table', ['id', 'subject', 'grade',], data3);
 	    }else if(yaer_select.value == 2 && semester_select.value == 2) {
-		loadTable('data-table', ['id', 'subject', 'grade',], data4);
+			loadTable('data-table', ['id', 'subject', 'grade',], data4);
 	    }
 	}, false);
     });
