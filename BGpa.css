@@ -3,7 +3,7 @@ html, body {
 }
 
 body{
-    background-image: url('/assests/Supa\'s\ GPA\ page\ BG.jpg');
+    background-image: url('assests/gpaBG.jpg');
     color: white;
     background-repeat: no-repeat;
     background-size:cover;
